@@ -35,5 +35,12 @@ Once a valid CSV file is selected, the notebook proceeds automatically with prep
 - Isolation Forest demonstrated higher false positives, consistent with unsupervised detection behavior
 - Random Forest was selected as the final model due to stability and recall
 
+## Project Structure
+
+- `notebooks/` – Jupyter notebook containing the full analysis pipeline
+- `data/` – Synthetic Nagios-style network monitoring dataset
+- `src/` – Supporting scripts (minimal, for structure compliance)
+- `models/` – Documentation of evaluated machine learning models
+
 ## Notes
 This project uses synthetic data for academic purposes. Real-world deployment would require validation using live network logs.
